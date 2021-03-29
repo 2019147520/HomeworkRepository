@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <meta charset = "utf-8">
+        <title>signup</title>
+    </head>
+
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+        <div><button class="nodec" type="button" onclick="location.href='login.html'">로그인</button>회원가입</div>
+        <hr>
+        <form method="post" action = "http://www.naver.com">
+            <div>
+                <label>이름 :<input name = "name" type="text" autofocus placeholder="이름을 입력하세요"></label>
+            </div>
+            <div>
+                <label>생일 :
+                    <input type="date"/>    
+                </label>
+            </div>
+            <div>
+                <label>학년 :
+                    <input type="number" min = "0" max = "7" step = "1" required/>
+                </label>
+            </div>
+            <div>
+                <label>전화번호 :
+                    <input type ="tel" placeholder = "(###) ###-####"
+                    pattern = "\(\d{3}\)+\d{3}-\d{4}" />
+                </label>
+            </div>
+            <div>
+                <label>유저 아이디 :
+                    <input type="text" name ="userid" autocomplete="on" placeholder="아이디를 입력하세요">
+                </label>
+            </div>
+            <div>
+                <label>비밀번호 :
+                    <input type="password" name="password" placeholder="비밀번호 입력하세요">
+                </label>
+            </div>
+            <div>
+                <label>비밀번호 확인 :
+                    <input type="password" name="check" placeholder="비밀번호 확인">
+                </label>
+            </div>
+            <div id = "button">
+                <input id = "b1" type = "submit" value= "Signup"/>
+                <input id = "b2" type = "reset" value = "Cancel"/>
+            </div>
+        </form>
+        <hr>
+    </body>
+</html>

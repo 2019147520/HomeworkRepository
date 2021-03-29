@@ -1,0 +1,54 @@
+h1 {   
+    font-family: fantasy;
+    width: auto;
+    font-size: 180%;
+    color: black;
+}
+.nodec {
+    text-decoration: none;
+    color:black;
+    border: 0ch;
+    background-color: white;
+    font-size: 16px;
+}
+div{
+    padding: 2pt;
+}
+
+div #top {
+    margin: 10px;
+    border: 3px solid red;
+    
+}
+#b1 {
+    padding: 2px;
+    text-align: center;
+    background-color: firebrick;
+    width: 100px;
+    height: fit-content;
+}
+
+#b2 {
+    padding: 2px;
+    text-align: center;
+    background-color:green;
+    width: 100px;
+    height: fit-content;
+}
+
+#b3{
+    padding: 2px;
+    text-align: center;
+    background-color: honeydew;
+    width: 100px;
+    height: fit-content;
+}
+
+#b4{
+    color:black;
+    padding: 2px;
+    text-align: center;
+    background-color:pink;
+    width: 100px;
+    height: fit-content;
+}

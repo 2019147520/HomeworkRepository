@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>login</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+        <div id="top"><a class="nodec" href="login.html">로그인</a></div>
+        <hr>
+        <form method="post" action = "http://www.naver.com">
+            <div>
+                <label>유저 아이디 :
+                    <input type="text" name ="id" autofocus placeholder="아이디를 입력하세요">
+                </label>
+            </div>
+            <div>
+                <label>비밀번호 :
+                    <input type="password" name="password" required size="25" placeholder="비밀번호 입력하세요">
+                </label>
+            </div>
+            <div>
+                <label>비밀번호 확인 :
+                    <input type="password" name="check" required size="25" placeholder="비밀번호 확인">
+                </label>
+            </div>
+            <div>
+                <input id="b3" type = "submit" value="로그인"/>
+                <button id="b4" type="button" onclick="location.href='signup.html'">회원가입</button>
+            </div>
+        </form>
+    </body>
+</html>
